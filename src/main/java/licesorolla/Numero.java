@@ -4,7 +4,7 @@ public class Numero {
 
 	public static void main(String[] args) {
 		
-		int numero = 5;
+		int numeroP = 5;
 
 	}
 
