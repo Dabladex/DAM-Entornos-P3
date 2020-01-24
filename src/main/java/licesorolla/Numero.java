@@ -2,8 +2,9 @@ package main.java.licesorolla;
 
 public class Numero {
 
-	public static void main(Cadenas[] args) {
+	public static void main(String[] args) {
 		
+		int numero = 5;
 
 	}
 
