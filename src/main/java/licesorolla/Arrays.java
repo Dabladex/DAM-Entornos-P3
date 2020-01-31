@@ -19,13 +19,24 @@ public class Arrays {
 		System.out.println(media);
 		
 	}
+	public static void calcularMinimo (int[] array) {
+		int numeroMin=999;
+		
+		for(int i=0; i<array.length; i++) {
+				
+			if(array[i] < numeroMin){
+				numeroMin=array[i];
+			}
+			
+		}
+		System.out.println("El minimo valor es: "+numeroMin);
+	}
 	
 	public static void main(String[] args) {
 			
 		int[] array={1,3,4,2};
 		
 		calcularMedia(array);
-		
 
 	}
 
