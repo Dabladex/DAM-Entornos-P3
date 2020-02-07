@@ -2,7 +2,15 @@ package main.java.licesorolla;
 
 public class Arrays {
 	
-
+		public static int mediana( int []array ) {
+			int middle = array.length/2;
+		    if (array.length%2 == 1) {
+		        return array[middle];
+		    } else {
+		        return (int) ((array[middle-1] + array[middle]) / 2.0);
+		    }
+		}
+		
 	public static void calcularMedia(int[] array) {
 		
 		int total=0;
@@ -37,6 +45,7 @@ public class Arrays {
 		int[] array={1,3,4,2};
 		
 		calcularMedia(array);
+		mediana(array);
 
 	}
 
